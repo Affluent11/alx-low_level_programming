@@ -1,20 +1,14 @@
 #include <stdlib.h>
 
-#include <time.h>
-
-#include <stdio.h>
-
 /* more headers goes there */
-
-
 
 /*betty style doc for function main goes there */
 
 /**
  *
- *  main - Prints a random number and states whether
+ * main - Prints a random number and states whether
  *
- *  it is positive, negative, or zero.
+ * it is positive, negative, or zero.
  *
  *   
  *
