@@ -17,7 +17,7 @@ while (co < 10)
 	_putchar (alpha);
 	}
 	co++;
-	_putchar('\n')
+	_putchar('\n');
 	
 	}
 
