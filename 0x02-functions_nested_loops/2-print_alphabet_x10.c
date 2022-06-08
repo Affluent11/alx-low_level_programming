@@ -18,7 +18,5 @@ while (co < 10)
 	}
 	co++;
 	_putchar('\n');
-	
 	}
-
 }
