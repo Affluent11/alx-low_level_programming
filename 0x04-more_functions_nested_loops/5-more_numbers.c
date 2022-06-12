@@ -23,10 +23,9 @@ void more_numbers(void)
 			if (result < 10) /*swap*/
 			{
 				second_num = result;			{
-
-					else if /*print num > 9*/
+				 if /*print num > 9*/
 			{
-				first_num = result / 10;
+				(first_num = result / 10;
 				second_num = result % 10;
 				_putchar (first_num + '0');
 			}
