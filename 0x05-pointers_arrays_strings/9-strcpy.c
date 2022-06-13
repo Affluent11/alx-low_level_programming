@@ -1,5 +1,5 @@
 #include <string.h>
-char *strcpy(char *dest, const char *src);
+
 
 /**
  * _strcpy - Copies a string pointed
@@ -7,7 +7,7 @@ char *strcpy(char *dest, const char *src);
  * A source string to copy.
  * Return: A pointer to the dest. string @dest.
  */
-char *_strcpy(char *dest, char *src)
+char*_strcpy(char *dest, char *src)
 {
 	int index = 0;
 
