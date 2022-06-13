@@ -7,6 +7,7 @@
  * @n: return value n
  * Return: void
  */
+
 void print_array(int *a, int n)
 {
 	int x;
@@ -23,4 +24,5 @@ void print_array(int *a, int n)
 		}
 		x++;
 	}
-}	printf("\n");
+	printf("\n");
+}
