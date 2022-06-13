@@ -10,8 +10,8 @@ void print_numbers(void)
 	i = 0;
 	while (i < 10)/*Start While*/
 	{
-		_putchar (i + '0'); /*print value i*/
+		_putchar(i + '0'); /*print value i*/
 		i++;
 	}
-	_putchar ('\n'); /*New line*/
+	_putchar('\n'); /*New line*/
 }
