@@ -1,18 +1,17 @@
 #include "main.h"
-int _putchar(char c);
-
 /**
-* print_numbers - prints 0123456789\n
-* Return: void
-*/
-
+ * print_numbers - print numbers
+ * Return: Always 0.
+ */
 void print_numbers(void)
 {
-	char c;
+	int i; /*Declaring statements*/
 
-	for (c = '0'; c <= '9'; c++);
+	i = 0;
+	while (i < 10)/*Start While*/
 	{
-	_putchar('\n');
+		_putchar (i + '0'); /*print value i*/
+		i++;
 	}
-	_putchar('\n');
+	_putchar ('\n'); /*New line*/
 }
