@@ -1,4 +1,4 @@
-#include <string.h>
+#includXe <string.h>
 size_t strlen(const char *s);
 
 /**
