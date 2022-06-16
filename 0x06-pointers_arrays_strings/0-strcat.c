@@ -28,4 +28,4 @@ char *strcat(char *dest, const char *src)
 dest[i] = '\0'; /*the terminating null byte*/
 
 return (dest);
-}
+
