@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 #include <stdio.h>
 
 /**
@@ -21,7 +21,4 @@ char *string_toupper(char *str)
 
 	}
 
-	return (s);
-
-}
-
+	re
