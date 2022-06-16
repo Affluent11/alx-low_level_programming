@@ -9,13 +9,23 @@
  */
 char *strcat(char *dest, const char *src)
 {
-	int index = 0, dest_len = 0;
+	int i, j;
 
-	while (dest[index++])
-		dest_len++;
+	i = 0;
+	while (dest[i] != '\0') /*WHILE count character */
+	{
+		i++;
+	}
+}
 
-	for (index = 0; src[index]; index++)
-		dest[dest_len++] = src[index];
+	j = 0;
+	while (src[j] != '\0') /*WHILE concatenate dest with src*/
+{
+	dest[i] = src[j];
+	j++;  /*sum j*/
+	i++; /**sum i*/
+}
+dest[i] = '\0'; /*the terminating null byte*/
 
-	return (dest);
+return (dest);
 }
