@@ -7,18 +7,20 @@
  * @s: input string.
  * Return: the pointer to dest.
  */
-char *string_toupper(char *s)
+char *string_toupper(char *@s, char *str)
 {
-	int count = 0;
+	int x;
 
-	while (*(s + count) != '\0')
+	for (x = 0; str[x] != '\0'; x++)
 	{
-	if ((*(s + count) >= 97) && (*(s + count) <= 122))
-		*(s + count) = *(s + count) - 32;
-		count++;
+		if (str[x] >= 'a' && str[x] <= 'z')
+		{
+			str[x] = str[x] - 32;
+		}
 
 	}
 
 	return (s);
 
 }
+
