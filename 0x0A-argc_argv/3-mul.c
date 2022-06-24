@@ -20,7 +20,7 @@ int main(int argc, char *argv[]);
 
 	number1 = atoi(argv[1]);
 	number2 = atoi(argv[2]);
-	pro. = num1 * num2;
+	prod = num1 * num2;
 
 	printf("%d\n", prod);
 
