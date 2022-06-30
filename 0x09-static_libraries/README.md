@@ -1,1 +1,1 @@
-static
+malloc & free
